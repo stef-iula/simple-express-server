@@ -1,7 +1,7 @@
 {
-  "name": "typescript-express-server-starter",
+  "name": "simple-express-server",
   "version": "1.0.0",
-  "description": "starter kit for express server in typescript",
+  "description": "boilerplate for express server in typescript",
   "main": "./src/index.ts",
   "scripts": {
     "start": "pm2-runtime dist/",
