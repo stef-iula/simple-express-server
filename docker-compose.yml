@@ -1,0 +1,14 @@
+version: '3'
+services:
+  server_app:
+    build:
+      context: .
+      dockerfile: local.dockerfile
+      args:
+        BUILD_ENV: 'local'
+    ports:
+      - '3000:300'
+    environment:
+      - BUILD_ENV=local
+    volumes:
+      - ./src:/server/src
