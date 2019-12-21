@@ -9,7 +9,7 @@ RUN npm install -g typescript
 RUN npm install
 
 ARG BUILD_ENV
-ENV PORT 3001
+ENV PORT 3000
 
 COPY ./tsconfig.json .
 COPY ./tslint.json .
